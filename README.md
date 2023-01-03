@@ -24,7 +24,7 @@ Its uses set of international interoperability standards such as HL7,FHIR,X12 an
   <tr>
     <td>3</td> 
     <td><a href = 'https://en.wikipedia.org/wiki/Package_manager' target='_blank'> Packages using Docker/NPM </a> </td>
-    <td>N/A</td>  
+    <td></td>  
   </tr>
   <tr>
     <td>4</td> 
