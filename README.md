@@ -3,13 +3,13 @@ Hospini is an open source Health Information Exchange (HIE) platform to facilita
 
 # Roadmap - HIE Methodologies
 <ol> 
-<li> HL7 v2/v3 </li> 
-<li> HL7 FHIR </li>
-<li> HL7 C-CDA </li>
-<li> X12 </li>
-<li> Flat Files like .txt, .csv </li>
-<li> Proprietory APIs </li>
-<li> Direct DB ETLs </li>
+<li> <a href = 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=185' target='_blank'> HL7 v2 </a> </li> 
+<li> <a href = 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=491' target='_blank'> HL7 FHIR </a> </li>
+<li> <a href = 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=496' target='_blank'> HL7 CDA </a> </li>
+<li> <a href = 'https://en.wikipedia.org/wiki/ASC_X12' target='_blank'> EDI - ASC X12  </a> </li> 
+<li> <a href = 'https://en.wikipedia.org/wiki/Comma-separated_values' target='_blank'> Flat Files like .txt, .csv </a> </li>
+<li> <a href = 'https://jsonapi.org/' target='_blank'>Proprietory APIs </a> </li>
+<li> <a href = 'https://en.wikipedia.org/wiki/Extract,_transform,_load' target='_blank'> Direct DB ETLs </a> </li> 
 </ol>
 
 # Technologies
@@ -19,4 +19,4 @@ Hospini is an open source Health Information Exchange (HIE) platform to facilita
 </ol>
 
 # Hospini License
-GNU General Public License v3.0
+<a href = 'https://github.com/hospini-hie/hospini/blob/main/LICENSE' target='_blank'> GNU General Public License v3.0 </a>
