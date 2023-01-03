@@ -48,7 +48,7 @@ Its uses set of international interoperability standards such as HL7,FHIR,X12 an
   </tr>
    <tr>
     <td>8</td> 
-    <td> <a href = 'https://en.wikipedia.org/wiki/Comma-separated_values' target='_blank'> Flat Files like .txt, .csv </a>  </td>
+    <td> <a href = 'https://en.wikipedia.org/wiki/Comma-separated_values' target='_blank'> CSV </a>  </td>
     <td></td>   
   </tr>
    <tr>
