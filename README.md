@@ -1,5 +1,7 @@
 # Introduction
-Hospini is an open source Health Information Exchange (HIE) platform to facilitate access to and retrieval of clinical data to provide safer and more timely, efficient, effective, and equitable patient-centered care for analyses of the health of the population
+Hospini is an open source Health Information Exchange (HIE) platform for the mobilization of health care information electronically across organizations within a region, community or hospital system. It helps to facilitate access to and retrieval of clinical/financial data to provide safer and more timely, efficient, effective, and equitable patient-centered care for analyses of the health of the population. 
+
+Its uses set of international interoperability standards such as HL7,FHIR,X12 and also custom solutions such as proprietory apis, direct ETLs, flat files, csv files etc to transfer clinical/financial data between different healthcare providers
 
 # Roadmap
 
