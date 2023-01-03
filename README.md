@@ -1,9 +1,6 @@
 # Introduction
 Hospini is an open source Health Information Exchange (HIE) platform to facilitate access to and retrieval of clinical data to provide safer and more timely, efficient, effective, and equitable patient-centered care for analyses of the health of the population
 
-# Latest Release (03-Dec-2023)
-MYSQL Database committed
-
 # Roadmap - HIE Methodologies
 <ol> 
 <li> HL7 v2/v3 </li> 
