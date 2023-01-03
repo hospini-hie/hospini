@@ -33,7 +33,7 @@ Its uses set of international interoperability standards such as HL7,FHIR,X12 an
   </tr>
   <tr>
     <td>5</td> 
-    <td> <a href = 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=491' target='_blank'> HL7 FHIR </a> </td>
+    <td> <a href = 'https://www.hl7.org/implement/standards/product_brief.cfm?product_id=491' target='_blank'> HL7 FHIR APIs </a> </td>
     <td></td>   
   </tr>
   <tr>
