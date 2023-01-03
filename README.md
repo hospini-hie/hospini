@@ -12,5 +12,11 @@ Hospini is an open source Health Information Exchange (HIE) platform to facilita
 <li> Direct DB ETLs </li>
 </ol>
 
+# Technologies
+<ol> 
+<li> Database: <b> MYSQL </b> </li>
+<li> API Framework: <b> NodeJS </b> </li>
+</ol>
+
 # Hospini License
 GNU General Public License v3.0
