@@ -19,7 +19,7 @@ Its uses set of international interoperability standards such as HL7,FHIR,X12 an
   <tr>
     <td>2</td> 
     <td><a href = 'https://jsonapi.org/' target='_blank'> Custom APIs </a> </td>
-    <td>31-Jan-2023</td>   
+    <td>Completed</td>   
   </tr>
   <tr>
     <td>3</td> 
