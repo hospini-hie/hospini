@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "0d23a72c-6128-4e65-a71b-fe0b6523b0f9",
+		"name": "Hospini CRUD APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Allergy Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/GetAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Allergy Categories by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/GetByID/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"GetByID",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Code Allergy Category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \r\n        \"active_flag\": 1,\r\n        \"allergy_category_display\": \"Biologic\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/Add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Code Allergy Category by ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"active_flag\": 1,\r\n        \"allergy_category_display\": \"Medication\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/UpdateByID/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"UpdateByID",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Code Allergy Category by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/DeleteByID/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"DeleteByID",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete All Code Allergy Category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/CodeAllergyCategory/DeleteAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"CodeAllergyCategory",
+						"DeleteAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
