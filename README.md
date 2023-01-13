@@ -3,6 +3,35 @@ Hospini is an open source Health Information Exchange (HIE) platform for the mob
 
 Its uses set of international interoperability standards such as HL7,FHIR,X12 and also custom solutions such as proprietory apis, direct ETLs, flat files, csv files etc to transfer clinical/financial data between different healthcare providers across the world
 
+# How to use?
+<h2> Docker </h3>
+<ol>
+  <li> Download <a href = 'https://www.docker.com/products/docker-desktop/'> Docker Desktop </a> and Start it </li>
+  <li> Download <a href = 'https://www.wampserver.com/en/'> WAMP </a> and Start it </li>
+  <li> Login to PHPMyAdmin and create a database called <b> hie </b>
+  <li> Import <a href = 'https://github.com/hospini-hie/hospini/tree/main/mysql-db'>hospini_hie.sql </a> into <b> hie </b> database
+  <li> Create a MYSQL DB Username = admin1 and PASSWORD = admin1
+  <li> Pull the hospini-app Image using <b>docker pull jumbocoder/hospini-app:latest </b></li>
+  <li> Pull the mysql:8.0 using <b>docker pull jumbocoder/mysql:8.0 </b></li>
+  <li> Run the app container using <b> docker run -d --publish 8085:8080 hospini-app:latest </b></li>
+  <li> Run the DB container using <b> docker run -d --publish 3307:3306 -e MYSQL_ROOT_PASSWORD=admin1 jumbocoder/mysql:8.0 </b></li>
+  <li> Import the <a href = 'https://github.com/hospini-hie/hospini/tree/main/postman-api-collections'> APIs </a> into your postman client </li>
+  <li> Try your CRUD </li>  
+</ol>
+
+<h2> Direct </h3>
+<ol>
+  <li> Clone the Github repository from <a href = 'https://github.com/hospini-hie/hospini.git'> Hospini Github Repo </a>
+  <li> Download <a href = 'https://www.wampserver.com/en/'> WAMP </a> and Start it </li>
+  <li> Login to PHPMyAdmin and create a database called <b> hie </b>
+  <li> Import <a href = 'https://github.com/hospini-hie/hospini/tree/main/mysql-db'>hospini_hie.sql </a> into <b> hie </b> database
+  <li> Create a MYSQL DB Username = admin1 and PASSWORD = admin1
+  <li> Start NodeJS app using the comman <b> node server.js </b>
+  <li> Import the <a href = 'https://github.com/hospini-hie/hospini/tree/main/postman-api-collections'> APIs </a> into your postman client </li>
+  <li> In all the APIs change the port from 8085 to 8080 as 8085 is Docker port</li>
+  <li> Try your CRUD </li>  
+</ol>
+
 # Roadmap
 
 <table>
@@ -23,8 +52,8 @@ Its uses set of international interoperability standards such as HL7,FHIR,X12 an
   </tr>
   <tr>
     <td>3</td> 
-    <td><a href = 'https://en.wikipedia.org/wiki/Package_manager' target='_blank'> Packages using Docker/NPM </a> </td>
-    <td></td>  
+    <td><a href = 'https://en.wikipedia.org/wiki/Package_manager' target='_blank'> Packages using Docker </a> </td>
+    <td> Completed </td>  
   </tr>
   <tr>
     <td>4</td> 
